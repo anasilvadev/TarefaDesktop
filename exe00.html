@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom e Formulário</title>
+</head>
+<script type="text/javascript" src="js/ex00.js"> </script>
+
+<body>
+    <h1>DOM e Formulário</h1>
+
+    <h2>DOM</h2>
+    <p>
+        DOM, Data Object Model, é uma API(Application Programming Interface) que visa simplificara forma de acessar a
+        estrutura de um documento HTML. Facilitando criar, modificar, adicionar e manipular elementos HTML.
+    </p>
+
+    <h2>Formulários</h2>
+    <p>
+        São elementos HTML que possibilitam a interação do usuário com a página web. Como exemplo temos caixas de texto,
+        botões, caixas de seleção, dentr outros. As tags form, label, input, são elementos de formulários.
+    </p>
+    <h2>Exemplo</h2>
+    <p>Construa uma interface para que sejam digitados dois números e somados.</p>
+
+    <p>
+        <label for="primeirovalor">Digite o valor:</label>
+        <input type="text" id="primeirovalor"><br>
+        <label for="segundovalor">Digite o valor:</label>
+        <input type="text" id="segundovalor"> <br>
+
+        <input type="button" value="Somar" id="btnsomar" onclick="somar()"> 
+        <div id="resultado1"></div> <br>
+
+    <input type="button" value="Multiplicar" id="btnmultiplicar" onclick="multiplicar()"> 
+    <div id="resultado2"></div> <br>
+
+    <input type="button" value="Subtrair" id="btnsubtrair" onclick="subtrair()">
+    <div id="resultado3"> </div> <br>
+
+    <input type="button" value="Dividir" id="btndividir" onclick="dividir()">
+    <div id="resultado4"> </div>
+
+        </p>
+</body>
+
+</html>
